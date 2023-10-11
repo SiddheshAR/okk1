@@ -1,5 +1,5 @@
 // Test for Git 
-const orderId = 8000;
+const orderId = 7000;
 
 const Promisez = ValueChecker(orderId);
 console.log(Promisez);
@@ -53,7 +53,6 @@ function ValueChecker(oid){
     return rez;
 }
 
- 
 setTimeout(()=>{console.log(Promisez);},6000);
 
 
